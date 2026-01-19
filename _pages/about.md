@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year undergraduate student majoring in **Computer Science and Technology** at the **School of Data Science**,  
-[The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)](https://cuhk.edu.cn).
+I am a third-year undergraduate student majoring in **Computer Science and Technology** at the **School of Data Science**, [The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)](https://cuhk.edu.cn).
 
 My primary interests lie in **software development** and **machine learning**, with a strong enthusiasm for building practical systems and applying learning-based methods to real-world problems. I have experience in algorithm design, backend and frontend development, and data-driven modeling.
 
