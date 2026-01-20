@@ -21,12 +21,11 @@ author_profile: true
 - Focus Areas: Software Development, Machine Learning, Algorithm Design
 
 **Relevant Coursework:**
-- Data Structures and Algorithms
-- Software Engineering
+- Data Structures
 - Machine Learning
 - Database Systems
-- Computer Networks
 - Operating Systems
+- Deep Learning
 
 ---
 
@@ -34,28 +33,13 @@ author_profile: true
 **Exchange Student - Computer Science**  
 📅 *January 2026 - Present*  
 📍 Espoo, Finland
-
 - Exchange program in the Department of Computer Science
 - Specializing in advanced computer science topics
 - Gaining international academic experience and cross-cultural perspectives
 
-**Exchange Program Highlights:**
-- Studying cutting-edge topics in computer science
-- Collaborating with international students and researchers
-- Experiencing Nordic education system and research culture
-
 ---
 
-## 📚 Academic Interests
 
-My academic journey has been driven by a passion for:
-- **Artificial Intelligence & Machine Learning**: Exploring intelligent systems and their applications
-- **Software Engineering**: Building robust, scalable, and maintainable software systems
-- **Algorithm Design & Analysis**: Developing efficient solutions to complex computational problems
-- **Data Science**: Extracting insights and value from large-scale datasets
+<!-- ## 🏆 Academic Achievements
 
----
-
-## 🏆 Academic Achievements
-
-*This section can be updated with awards, scholarships, honors, GPA, or other academic achievements.*
+*This section can be updated with awards, scholarships, honors, GPA, or other academic achievements.* -->
