@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-## 👋 Hello!
+## Hello!
 
 I am a third-year undergraduate student majoring in **Computer Science and Technology** at the **School of Data Science**, [The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)](https://cuhk.edu.cn).
 
 ---
 
-## 🔬 Interests
+## Interests
 
 My primary interests lie in:
 - **Software Development**: Building softerwares/websites and scalable systems
@@ -21,7 +21,7 @@ My primary interests lie in:
 
 ---
 
-## 💼 Experience & Skills
+## Experience & Skills
 
 I have hands-on experience in:
 - **Backend Development**: Designing and implementing server-side applications
@@ -30,24 +30,23 @@ I have hands-on experience in:
 
 ---
 
-## 🎯 What I'm Currently Doing
+## What I'm Currently Doing
 
-- 📚 Pursuing my undergraduate degree in Computer Science
-- 💻 Working on personal and academic projects
-- 🌱 Continuously learning new technologies and methodologies
-- 🔍 Exploring opportunities in research and industry
+-  Pursuing my undergraduate degree in Computer Science
+-  Continuously learning new technologies and methodologies
+-  Exploring opportunities in research and industry
 
 ---
 
-## 📄 Curriculum Vitae
+##  Curriculum Vitae
 
 You can download my CV in the following languages:
-- 📥 [CV in English](./assets/Shen_Xiaodan-CV.pdf)
-- 📥 [简历（中文版）](./assets/沈小丹-简历.pdf)
+-  [CV in English](./assets/Shen_Xiaodan-CV.pdf)
+-  [简历（中文版）](./assets/沈小丹-简历.pdf)
 
 ---
 
-## 📫 Get in Touch
+##  Get in Touch
 
 Feel free to reach out if you'd like to discuss:
 - Research collaboration opportunities
