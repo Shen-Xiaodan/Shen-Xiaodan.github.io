@@ -7,14 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-## 💼 Professional Experience
+## Professional Experience
 
 ---
 
 ### China Telecom Huizhou Branch
 **AI Algorithm Engineer (Intern)**  
-📅 *July 2025 - August 2025*  
-📍 Huizhou, Guangdong, China
+ *July 2025 - August 2025*  
+ Huizhou, Guangdong, China
 
 **Key Responsibilities:**
 - Developed and implemented AI workflows in different tasks

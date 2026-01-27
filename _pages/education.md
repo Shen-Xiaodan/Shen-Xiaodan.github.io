@@ -7,14 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-## 🎓 Academic Background
+## Academic Background
 
 ---
 
-### The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)
+### [The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)](https://www.cuhk.edu.cn/en)
 **Bachelor of Engineering in Computer Science and Technology**  
-📅 *September 2023 - Present*  
-📍 Shenzhen, Guangdong, China
+*September 2023 - Present*  
+ Shenzhen, Guangdong, China
 
 - Major: Computer Science and Technology
 - School: School of Data Science
@@ -29,10 +29,10 @@ author_profile: true
 
 ---
 
-### Aalto University
+### [Aalto University](https://www.aalto.fi/en)
 **Exchange Student - Computer Science**  
-📅 *January 2026 - Present*  
-📍 Espoo, Finland
+ *January 2026 - Present*  
+ Espoo, Finland
 - Exchange program in the Department of Computer Science
 - Specializing in advanced computer science topics
 - Gaining international academic experience and cross-cultural perspectives
