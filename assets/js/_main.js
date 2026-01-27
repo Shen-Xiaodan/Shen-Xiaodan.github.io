@@ -83,6 +83,40 @@ var toggleLang = () => {
   setLang(newLang);
 };
 
+// Update navigation links based on current language
+let updateNavLinks = () => {
+  const currentLang = getCurrentLang();
+  const baseUrl = window.location.origin;
+  
+  // Update all navigation links
+  document.querySelectorAll('.nav-link').forEach(link => {
+    const originalUrl = link.getAttribute('data-url') || link.getAttribute('href');
+    
+    // Skip external links
+    if (originalUrl && !originalUrl.startsWith('http')) {
+      // Remove any existing language prefix
+      let cleanUrl = originalUrl.replace(/^\/(zh|en)\//, '/');
+      
+      // Add language prefix if Chinese
+      if (currentLang === 'zh') {
+        link.setAttribute('href', '/zh' + cleanUrl);
+      } else {
+        link.setAttribute('href', cleanUrl);
+      }
+    }
+  });
+  
+  // Update home link separately
+  const homeLink = document.querySelector('.home-link');
+  if (homeLink) {
+    if (currentLang === 'zh') {
+      homeLink.setAttribute('href', '/zh/');
+    } else {
+      homeLink.setAttribute('href', '/');
+    }
+  }
+};
+
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
@@ -148,6 +182,9 @@ $(document).ready(function () {
   } else {
     localStorage.setItem("lang", "en");
   }
+  
+  // Update navigation links based on current language
+  updateNavLinks();
 
   // Enable the sticky footer
   var bumpIt = function () {
