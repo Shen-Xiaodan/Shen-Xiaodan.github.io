@@ -47,6 +47,33 @@ var toggleTheme = () => {
   setTheme(new_theme);
 };
 
+// Language toggle functionality
+let getCurrentLang = () => {
+  return localStorage.getItem("lang") || "en";
+};
+
+let setLang = (lang) => {
+  localStorage.setItem("lang", lang);
+  const currentPath = window.location.pathname;
+  
+  // Remove language prefix if exists
+  let cleanPath = currentPath.replace(/^\/(zh|en)\//, '/');
+  if (cleanPath === '/') cleanPath = '';
+  
+  // Redirect to the appropriate language version
+  if (lang === "zh") {
+    window.location.href = "/zh" + cleanPath;
+  } else {
+    window.location.href = cleanPath || '/';
+  }
+};
+
+var toggleLang = () => {
+  const currentLang = getCurrentLang();
+  const newLang = currentLang === "zh" ? "en" : "zh";
+  setLang(newLang);
+};
+
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
@@ -101,6 +128,17 @@ $(document).ready(function () {
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
+  
+  // Enable the language toggle
+  $('#lang-toggle').on('click', toggleLang);
+  
+  // Set current language on page load
+  const currentPath = window.location.pathname;
+  if (currentPath.startsWith('/zh/')) {
+    localStorage.setItem("lang", "zh");
+  } else {
+    localStorage.setItem("lang", "en");
+  }
 
   // Enable the sticky footer
   var bumpIt = function () {
