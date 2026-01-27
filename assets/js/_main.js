@@ -55,16 +55,25 @@ let getCurrentLang = () => {
 let setLang = (lang) => {
   localStorage.setItem("lang", lang);
   const currentPath = window.location.pathname;
+  const baseUrl = window.location.origin;
   
   // Remove language prefix if exists
   let cleanPath = currentPath.replace(/^\/(zh|en)\//, '/');
-  if (cleanPath === '/') cleanPath = '';
   
-  // Redirect to the appropriate language version
-  if (lang === "zh") {
-    window.location.href = "/zh" + cleanPath;
+  // Handle root path
+  if (cleanPath === '/' || cleanPath === '') {
+    if (lang === "zh") {
+      window.location.href = baseUrl + "/zh/";
+    } else {
+      window.location.href = baseUrl + "/";
+    }
   } else {
-    window.location.href = cleanPath || '/';
+    // Redirect to the appropriate language version
+    if (lang === "zh") {
+      window.location.href = baseUrl + "/zh" + cleanPath;
+    } else {
+      window.location.href = baseUrl + cleanPath;
+    }
   }
 };
 
